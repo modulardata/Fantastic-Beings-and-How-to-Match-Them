@@ -1,0 +1,19 @@
+type: code
+files:
+  - name: main.js
+    visible: true
+    highlight_level: NONE
+    text: "async function sumOfSquares(numbers) {\n  const squares = numbers.map((number)\
+    \ => number * number);\n  const sum = squares.reduce(\n    (accumulator, currentValue)\
+    \ => accumulator + currentValue,\n    0\n  );\n  return sum;\n}\n\n// Write code\
+    \ below this line \n\nasync function calculateSum(arrayOfNumbers) {\n  try {\n\
+    \    ...await...\n    console.log(sum);\n  } \n    ...\n\n}\n\n// Write code above\
+    \ this line"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/27931#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 16 Jan 2024 21:01:40 UTC"
+record: -1
+submission_language: javascript

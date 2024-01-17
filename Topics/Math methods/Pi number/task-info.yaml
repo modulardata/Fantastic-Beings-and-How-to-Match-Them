@@ -1,0 +1,19 @@
+type: code
+files:
+  - name: main.js
+    visible: true
+    highlight_level: NONE
+    text: |-
+      function piFunc(){
+          // write your code here
+      
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/24969#comment
+status: Failed
+feedback:
+  message: |
+    Failed. Wrong answer
+  time: "Wed, 17 Jan 2024 05:46:01 UTC"
+record: -1
+submission_language: javascript

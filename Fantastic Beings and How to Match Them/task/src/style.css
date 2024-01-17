@@ -1,0 +1,47 @@
+/*reset browser css using import in css*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+#board {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("img/board-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#status-bar {
+    top: 0;
+    left: 0;
+    height: 10vh;
+    width: 100%;
+    background-image: url("img/state-panel-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#map {
+    margin: 3vh auto;
+    width: 60vh;
+    height: 60vh;
+}
+
+.cell {
+    width: 20%;
+    height: 20%;
+    border: 1px solid rgb(103, 101, 168);
+    background-color: rgba(103, 101, 168, 0.4);
+}
+
+
